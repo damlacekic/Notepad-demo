@@ -30,7 +30,7 @@ If you choose to Undo one letter from the text you have to enter a text
 
 Then when you push the Undo button you will see the Undo operation
 
-![9](https://user-images.githubusercontent.com/72108390/117370368-f6150200-aece-11eb-80b9-925ab90612d7.PNG)
+![11](https://user-images.githubusercontent.com/72108390/117370921-c1ee1100-aecf-11eb-8431-6311fea5e9b6.PNG)
 
 If you choose to Save the Text then you have to enter the text
 

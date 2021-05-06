@@ -1,5 +1,5 @@
 # Notepad-demo
-This project written with interpretter, Buildera and  Command patterns
+This project written with interpretter, Builder and  Command patterns
 When you launch the program you will see a screen which ask you enter a text, enter a word that you want to change if you want to change a word. 
 And also enter the word to replace the word you want to change. 
 

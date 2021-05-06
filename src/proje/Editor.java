@@ -78,19 +78,19 @@ public class Editor {
         frame.setContentPane(content);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         content.setLayout(new BoxLayout(content, BoxLayout.Y_AXIS));
-        textField = new JTextField("Metini Giriniz: ");
-        aranacakKelime = new JTextField("Degistirmek istediginiz kelimeyi giriniz");
-        degistirilecekKelime = new JTextField("Degistirmek istediginiz kelimenin yerine yazılacak kelimeyi giriniz");
+        textField = new JTextField("Enter the Text: ");
+        aranacakKelime = new JTextField("Enter the word you want to change: ");
+        degistirilecekKelime = new JTextField("Enter the word to replace the word you want to change: ");
         
        
         content.add(textField);
          content.add(aranacakKelime);
          content.add(degistirilecekKelime);
         JPanel buttons = new JPanel(new FlowLayout(FlowLayout.CENTER));
-        JButton duzelt = new JButton("Düzelt");
-        JButton geriAl = new JButton("Geri Al");
-        JButton Kaydet = new JButton("Kaydet");
-        JButton Degistir = new JButton("Degistir");
+        JButton duzelt = new JButton("Correction ");
+        JButton geriAl = new JButton("Undo");
+        JButton Kaydet = new JButton("Save");
+        JButton Degistir = new JButton("Change");
 
  
         Editor editor = this;
